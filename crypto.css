@@ -1,0 +1,53 @@
+:root{
+    --a:#E7E6E1;
+    --b:#F7F6E7;
+    --c:#F2A154;
+    --d:#314E52;
+}
+/* body
+{
+    background-image: url("crypto2.jpg");
+    background-repeat: no-repeat;
+} */
+*
+{
+    background-color: var(--d);
+    color: var(--a);
+}
+/* img{
+    width: 20vw;
+    height: 40vh;
+    margin-top: 10vh;
+    margin-left: 0px;
+    float: left;
+} */
+h1
+{
+    background-color: var(--a);
+    color: var(--d);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0px 3px;
+}
+.container
+{
+    background-color:white;
+    text-align: center;
+    margin: 25vh 20vw;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 60vw;
+    height: 45vh;
+    z-index: 1;
+}
+.conversion
+{
+    margin-left: 12vw;
+    width:35vw;
+    background-color: var(--a);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0px;
+    padding: 20px;
+}
+
